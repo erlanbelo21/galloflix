@@ -17,3 +17,9 @@ public class AppUser : IdentityUser
     public ICollection<MovieComment> Comments { get; set; }
     public ICollection<MovieRating> Ratings { get; set; }
 }
+
+
+
+
+
+

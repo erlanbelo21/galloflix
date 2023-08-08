@@ -329,20 +329,20 @@ namespace GalloFlix.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "69f34eb3-a518-4748-ae4f-4b8c70415932", "9cd5ee39-dcd2-47ed-9193-59db5c7b6ded", "Administrador", "ADMINISTRADOR" },
-                    { "a77f4d98-a0dd-4759-927e-c43941f024fc", "fe9121a0-bc6c-47c6-90aa-54d9ad846b2c", "Usuário", " USUÁRIO" },
-                    { "d29a3414-0a8c-472f-872b-5d61e0e3107a", "ac248721-843e-4353-99c4-b3f3096a1861", "Moderador", "MODERADOR" }
+                    { "47de1592-54c5-4b8a-b78d-744ceeb6d716", "40113ff8-7cba-4c3f-b003-ac0d9634db78", "Moderador", "MODERADOR" },
+                    { "4f7d1152-dccc-4158-b5e7-341d131be1c3", "0a2b3db6-c859-43ce-a96e-d8bd4f518580", "Administrador", "ADMINISTRADOR" },
+                    { "61960174-addb-4353-89db-b2701c1e885b", "15db0126-689a-4c84-9d15-6d262fd818f1", "Usuário", "USUÁRIO" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "DateOfBirth", "Discriminator", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "ProfilePicture", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "54321744-f045-43e5-aff4-082f030ed070", 0, "e8a6f363-5b98-4071-848f-d7767b10a43a", new DateTime(2005, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), "AppUser", "admin@gmail.com", true, false, null, "Seu Nome Completo", "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAEAACcQAAAAEMYv4mKAnVdEZOeM1EJ+x6Xsx0fVjbPFHN1DU3gldtFnx9sNjCfe65Y1VLw7qIz3rQ==", "14912345678", true, "/img/users/avatar.png", "5447cb07-e7c4-4289-8a98-1e8588f66689", false, "Admin" });
+                values: new object[] { "1ae14516-4ec8-4d11-820a-8925deeb1f87", 0, "655aa8cb-8160-4870-bca6-273ad0cb980d", new DateTime(2005, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), "AppUser", "admin@gmail.com", true, false, null, "Seu Nome Completo", "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAEAACcQAAAAEKz7LqIMjkJb2VXuysa35akHLTCojp+YWldRYE27qH6KXGXWlquHPWKzbE6AliF1bA==", "14912345678", true, "/img/users/avatar.png", "190778dd-2ea4-4e93-a827-ebeebb19060c", false, "Admin" });
 
             migrationBuilder.InsertData(
                 table: "UserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "69f34eb3-a518-4748-ae4f-4b8c70415932", "54321744-f045-43e5-aff4-082f030ed070" });
+                values: new object[] { "4f7d1152-dccc-4158-b5e7-341d131be1c3", "1ae14516-4ec8-4d11-820a-8925deeb1f87" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_MovieComment_MovieId",

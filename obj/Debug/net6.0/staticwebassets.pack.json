@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\etec\\Desktop\\GalloFlix\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GalloFlix.bundle.scp.css",
-      "PackagePath": "staticwebassets\\GalloFlix.bundle.scp.css"
+      "Id": "C:\\Users\\etec\\Desktop\\GalloFlix\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\GalloFlix\\wwwroot\\css\\site.css",
@@ -11,6 +11,10 @@
     {
       "Id": "C:\\Users\\etec\\Desktop\\GalloFlix\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\GalloFlix\\wwwroot\\js\\color-modes.js",
+      "PackagePath": "staticwebassets\\js\\color-modes.js"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\GalloFlix\\wwwroot\\js\\site.js",

@@ -52,3 +52,4 @@ public class Movie
     public ICollection<MovieRating> Ratings { get; set; }
 
 }
+
